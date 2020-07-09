@@ -9,8 +9,8 @@ public class UserIDGeneration {
 		int pin = input3;
 		int N = input4;
 		
-		String longerName;
-		String smallerName;
+		String longerName="";
+		String smallerName="";
 		StringBuilder userId = new StringBuilder();   //To use append like functions
 		
 		if (firstName.length() > lastName.length()) {   //For finding the length of the two strings
